@@ -1,0 +1,55 @@
+@font-face {
+  font-family: HACKED;
+  src: url("/fonts/Hacked-Kerx.ttf") format("ttf");
+}
+
+element.style {
+}
+
+body{
+  	opacity: 1;
+	background-image: url("wad.gif");
+	background-size: cover;
+  	font-family: "HACKED";
+  	overflow:hidden;
+  	margin:0;
+	color: white;
+}
+
+label {
+    font-family: "HACKED";
+    font-weight: normal;
+    font-size: 4rem;
+    width: 750px;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: white;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: green;
+}
+
+input {
+	text-align: center;
+{
+
+textbox {
+    margin: 0 0 10px;
+}
+
+#password{
+text-align: center;
+{
+
+#result{
+text-align: center;
+{
+
+#center {
+
+text-align: center;
+
+}
+
+#code {

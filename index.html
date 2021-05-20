@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+<head>
+  <title> Enter your code here to escape from the island! </title>
+</head>
+<body>
+ <div id="center">
+  <textbox>
+    <label id="center">Enter the code that you found in this text box!</label>
+  </textbox>
+ </div>
+<div>
+   <h1 style="color: white;">Code:</h1>
+  <input id="password" type="text" />
+  <input id="Button1" type="button" value="Run" onclick="passcheck()" />
+</div>
+<h1 style="color: white;">Result:</h1> <span id="result"/>
+<script>
+
+function passcheck() {
+  const resultRef = document.getElementById('result');
+  const inputRef = document.getElementById('password');
+
+  /* You can pass any other condition 
+     for checking the validity of the password
+     instead of inputRef.value.length >= 6
+  */
+  const resultText = inputRef.value.length >= 6 ? 'THE CODE IS CORRECT! GOOD JOB!' : 'WRONG CODE! TRY AGAIN';
+
+  resultRef.innerHTML = resultText;
+}
+</script>
+</body>
+ </div
+</body>
+</html>
+    
+  
